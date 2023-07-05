@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "cc7f4249-53fc-4f9d-a1be-1aaa4683854f",
+		"name": "Employee Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "CSRF Cookie",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "eaa917be-9ae1-4e31-8b15-e23f42b151ec",
+								"exec": [
+									"pm.globals.set(\"X-XSRF-TOKEN\", pm.cookies.get('XSRF-TOKEN'));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"_postman_id": "66d43f15-f40c-496e-abba-7bdc34ecc9bf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{host}}/sanctum/csrf-cookie"
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"_postman_id": "74a9ee29-c84b-427c-9152-b6a679316c7b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-XSRF-TOKEN",
+								"value": "{{X-XSRF-TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Nikola\",\r\n    \"surname\" : \"Admin\",\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\",\r\n    \"password_confirmation\" : \"123456789\",\r\n    \"date_of_birth\" : \"1999-06-25\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/register"
+					},
+					"response": []
+				}
+			],
+			"_postman_id": "3dbd3160-587d-4053-b1b2-88d032c14a1b"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e9d8eb66-ec96-46a3-b0a1-ad94e608657c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f701df82-ea29-4c62-822e-aca086005783",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "743febbd-cd9a-49f7-9449-1b9b364a48dd",
+			"key": "host",
+			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		}
+	]
+}
