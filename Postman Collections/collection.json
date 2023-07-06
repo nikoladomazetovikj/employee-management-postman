@@ -122,7 +122,20 @@
 		},
 		{
 			"name": "Companies",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "7abd4558-c7fa-4d74-a4a2-491cfdaef5b4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "8be46eec-8c72-42a9-93b2-abea146ef319"
 		}
 	],
@@ -150,7 +163,7 @@
 	],
 	"variable": [
 		{
-			"id": "febbf367-bd36-4293-830a-ba44ba86a554",
+			"id": "e7629678-28b2-4641-a7f7-4bc57cb91d1c",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
