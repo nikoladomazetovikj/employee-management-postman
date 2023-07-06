@@ -130,8 +130,24 @@
 						"disableBodyPruning": true
 					},
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-XSRF-TOKEN",
+								"value": "{{X-XSRF-TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"email\" : \"testing@test.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/company"
 					},
 					"response": []
 				}
@@ -163,7 +179,7 @@
 	],
 	"variable": [
 		{
-			"id": "883d10d6-f537-406a-ac7a-27124f624af3",
+			"id": "facabe8c-63c4-4e2b-bb56-2ff99bc41069",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
