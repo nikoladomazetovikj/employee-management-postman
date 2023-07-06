@@ -121,7 +121,7 @@
 			"id": "3dbd3160-587d-4053-b1b2-88d032c14a1b"
 		},
 		{
-			"name": "New Folder",
+			"name": "Companies",
 			"item": [],
 			"id": "8be46eec-8c72-42a9-93b2-abea146ef319"
 		}
@@ -150,7 +150,7 @@
 	],
 	"variable": [
 		{
-			"id": "d6a2b1f3-7f65-4442-9666-39bfd641e41b",
+			"id": "28c26246-7fef-4cff-9537-2b94d7a61d6e",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
