@@ -22,7 +22,7 @@
 							}
 						}
 					],
-					"_postman_id": "66d43f15-f40c-496e-abba-7bdc34ecc9bf",
+					"id": "66d43f15-f40c-496e-abba-7bdc34ecc9bf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -35,7 +35,7 @@
 				},
 				{
 					"name": "Register",
-					"_postman_id": "74a9ee29-c84b-427c-9152-b6a679316c7b",
+					"id": "74a9ee29-c84b-427c-9152-b6a679316c7b",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -62,7 +62,7 @@
 					"response": []
 				}
 			],
-			"_postman_id": "3dbd3160-587d-4053-b1b2-88d032c14a1b"
+			"id": "3dbd3160-587d-4053-b1b2-88d032c14a1b"
 		}
 	],
 	"event": [
@@ -89,7 +89,7 @@
 	],
 	"variable": [
 		{
-			"id": "743febbd-cd9a-49f7-9449-1b9b364a48dd",
+			"id": "ac5797e1-065d-4d3d-bb62-c25b01b2623d",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
