@@ -124,7 +124,7 @@
 			"name": "Companies",
 			"item": [
 				{
-					"name": "New Request",
+					"name": "Create",
 					"id": "7abd4558-c7fa-4d74-a4a2-491cfdaef5b4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -163,7 +163,7 @@
 	],
 	"variable": [
 		{
-			"id": "e7629678-28b2-4641-a7f7-4bc57cb91d1c",
+			"id": "883d10d6-f537-406a-ac7a-27124f624af3",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
