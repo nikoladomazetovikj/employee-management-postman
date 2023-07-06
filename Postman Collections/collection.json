@@ -122,7 +122,36 @@
 		},
 		{
 			"name": "Companies",
-			"item": [],
+			"item": [
+				{
+					"name": "Create",
+					"id": "fe342fa0-2b57-4a82-989e-06a652cc674c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-XSRF-TOKEN",
+								"value": "{{X-XSRF-TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Nikola\",\r\n    \"surname\" : \"Admin\",\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\",\r\n    \"password_confirmation\" : \"123456789\",\r\n    \"date_of_birth\" : \"1999-06-25\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/register"
+					},
+					"response": []
+				}
+			],
 			"id": "8be46eec-8c72-42a9-93b2-abea146ef319"
 		}
 	],
@@ -150,7 +179,7 @@
 	],
 	"variable": [
 		{
-			"id": "28c26246-7fef-4cff-9537-2b94d7a61d6e",
+			"id": "be49dea1-de9f-47e6-a267-4074e607b28b",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
