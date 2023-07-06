@@ -147,7 +147,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/register"
+						"url": "{{host}}/api/company"
 					},
 					"response": []
 				}
@@ -179,7 +179,7 @@
 	],
 	"variable": [
 		{
-			"id": "be49dea1-de9f-47e6-a267-4074e607b28b",
+			"id": "01a0acb7-01dc-46d2-996b-aed5a417e383",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
