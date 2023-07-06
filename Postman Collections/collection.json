@@ -88,6 +88,34 @@
 						"url": "{{host}}/login"
 					},
 					"response": []
+				},
+				{
+					"name": "Logout",
+					"id": "69e8da2e-b3bf-41a4-b28e-88a4873a825e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-XSRF-TOKEN",
+								"value": "{{X-XSRF-TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/login"
+					},
+					"response": []
 				}
 			],
 			"id": "3dbd3160-587d-4053-b1b2-88d032c14a1b"
@@ -117,7 +145,7 @@
 	],
 	"variable": [
 		{
-			"id": "714990b5-e68c-40be-991f-37421b5314a8",
+			"id": "76ea4649-904f-4f62-892c-35e68c33baf8",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
