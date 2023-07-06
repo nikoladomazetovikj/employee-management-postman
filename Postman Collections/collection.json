@@ -60,6 +60,34 @@
 						"url": "{{host}}/register"
 					},
 					"response": []
+				},
+				{
+					"name": "Login",
+					"id": "14710b88-229e-4889-b03a-04d4d8d657ab",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "X-XSRF-TOKEN",
+								"value": "{{X-XSRF-TOKEN}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Nikola\",\r\n    \"surname\" : \"Admin\",\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\",\r\n    \"password_confirmation\" : \"123456789\",\r\n    \"date_of_birth\" : \"1999-06-25\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/register"
+					},
+					"response": []
 				}
 			],
 			"id": "3dbd3160-587d-4053-b1b2-88d032c14a1b"
@@ -89,7 +117,7 @@
 	],
 	"variable": [
 		{
-			"id": "3dde1df4-42a1-421b-a295-36d39fced419",
+			"id": "86480267-5e33-4610-a9e7-2e0a5b23eb4b",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
