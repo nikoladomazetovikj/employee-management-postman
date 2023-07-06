@@ -78,14 +78,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Nikola\",\r\n    \"surname\" : \"Admin\",\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\",\r\n    \"password_confirmation\" : \"123456789\",\r\n    \"date_of_birth\" : \"1999-06-25\"\r\n}",
+							"raw": "{\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{host}}/register"
+						"url": "{{host}}/login"
 					},
 					"response": []
 				}
@@ -117,7 +117,7 @@
 	],
 	"variable": [
 		{
-			"id": "86480267-5e33-4610-a9e7-2e0a5b23eb4b",
+			"id": "714990b5-e68c-40be-991f-37421b5314a8",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
