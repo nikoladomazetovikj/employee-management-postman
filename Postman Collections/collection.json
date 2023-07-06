@@ -106,14 +106,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{host}}/login"
+						"url": "{{host}}/logout"
 					},
 					"response": []
 				}
@@ -145,7 +145,7 @@
 	],
 	"variable": [
 		{
-			"id": "76ea4649-904f-4f62-892c-35e68c33baf8",
+			"id": "0e44d2c8-a418-4228-9d84-06bb6b31413a",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
