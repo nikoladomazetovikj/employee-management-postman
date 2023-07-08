@@ -172,7 +172,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"email\" : \"testing@test.com\"\r\n}",
+							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"email\" : \"testg@test.com\",\r\n    \"address\": {\r\n        \"street\": \"123 Main Street\",\r\n        \"city\": \"New York\",\r\n        \"zip\": \"10001\",\r\n        \"state\": \"NY\",\r\n        \"country\": \"USA\"\r\n    },\r\n    \"phone\": {\r\n        \"number\" : \"+12345678900\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -346,13 +346,13 @@
 	],
 	"variable": [
 		{
-			"id": "f727d536-fc08-4efa-9f65-7d79e90e53fc",
+			"id": "63149585-cb30-402a-ba2a-b94d6e8a0074",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "e5105e2b-a94e-4675-90dd-3a90b5fa362c",
+			"id": "e92c58bc-6e34-4c67-81a8-5bb870b5a5a4",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
