@@ -184,6 +184,49 @@
 					"response": []
 				},
 				{
+					"name": "Update",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "f7c0f504-8896-4c8b-8978-5a2b2716974e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"email\" : \"testing@test.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/company"
+					},
+					"response": []
+				},
+				{
 					"name": "Get By Id",
 					"event": [
 						{
@@ -260,13 +303,13 @@
 	],
 	"variable": [
 		{
-			"id": "3064d1d8-e671-4a51-b094-0cd03d18aaa8",
+			"id": "b8f71301-f936-47dd-bfd7-a427aff07860",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "6a0554b8-8f07-443e-a152-d51058b979bb",
+			"id": "a1a06a24-581a-4470-9a9e-79d12c79a9f1",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
