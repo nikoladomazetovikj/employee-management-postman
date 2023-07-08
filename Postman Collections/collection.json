@@ -94,19 +94,27 @@
 			"item": [
 				{
 					"name": "Create",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									"const responseJson = pm.response.json();\r",
+									"pm.collectionVariables.set('bearer', responseJson.token)\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "7abd4558-c7fa-4d74-a4a2-491cfdaef5b4",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "X-XSRF-TOKEN",
-								"value": "{{X-XSRF-TOKEN}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"email\" : \"testing@test.com\"\r\n}",
@@ -154,13 +162,13 @@
 	],
 	"variable": [
 		{
-			"id": "9a17b18c-262b-4e54-9135-01017b3d21e1",
+			"id": "54ab2187-3e3b-4c29-ad92-feb72166de57",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "283d6de9-7144-4c47-bcd7-261f6130cef8",
+			"id": "73bea9b9-100b-4839-8e32-9dc4d171bac3",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
