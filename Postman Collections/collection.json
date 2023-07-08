@@ -9,31 +9,6 @@
 			"name": "Auth",
 			"item": [
 				{
-					"name": "CSRF Cookie",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "eaa917be-9ae1-4e31-8b15-e23f42b151ec",
-								"exec": [
-									"pm.globals.set(\"X-XSRF-TOKEN\", pm.cookies.get('XSRF-TOKEN'));"
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"id": "66d43f15-f40c-496e-abba-7bdc34ecc9bf",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": "{{host}}/sanctum/csrf-cookie"
-					},
-					"response": []
-				},
-				{
 					"name": "Register",
 					"id": "74a9ee29-c84b-427c-9152-b6a679316c7b",
 					"protocolProfileBehavior": {
@@ -179,7 +154,7 @@
 	],
 	"variable": [
 		{
-			"id": "facabe8c-63c4-4e2b-bb56-2ff99bc41069",
+			"id": "01467ae1-7c35-4041-80f7-9b6a9f24e345",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
