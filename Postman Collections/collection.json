@@ -194,13 +194,13 @@
 	],
 	"variable": [
 		{
-			"id": "ae9f5e26-6bf5-4b17-b7df-13c7babccf70",
+			"id": "4b66907f-995e-4e39-8da8-f29cea88d9e4",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "19783c23-e29d-40cb-9ecc-7a04d4da7952",
+			"id": "70974dbe-f475-436c-a0d2-a950d2cf60b9",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
