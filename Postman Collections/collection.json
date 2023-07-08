@@ -51,14 +51,23 @@
 					"id": "14710b88-229e-4889-b03a-04d4d8d657ab",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true,
-						"disableCookies": true
+						"disableCookies": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
 					},
 					"request": {
 						"auth": {
 							"type": "noauth"
 						},
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\"\r\n}",
@@ -176,13 +185,13 @@
 	],
 	"variable": [
 		{
-			"id": "e0f3e6d2-c8e3-40ca-bbb6-493d5d1ff6f3",
+			"id": "438f7508-d6f4-4025-912c-c5e36994ee45",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "90459f38-4871-4b14-87d5-c61c75471ba9",
+			"id": "07101857-e6f1-49dc-9a19-f3160d26350d",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
