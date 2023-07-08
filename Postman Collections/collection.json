@@ -41,11 +41,28 @@
 				},
 				{
 					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "36f7102f-8252-4485-8ec5-4e0d486fd2b7",
+								"exec": [
+									"const responseJson = pm.response.json();\r",
+									"pm.collectionVariables.set('bearer', responseJson.token)\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "14710b88-229e-4889-b03a-04d4d8d657ab",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "noauth"
+						},
 						"method": "POST",
 						"header": [],
 						"body": {
@@ -165,13 +182,13 @@
 	],
 	"variable": [
 		{
-			"id": "02a9bf3c-55f2-42ee-a875-04378ee58327",
+			"id": "51c1c182-68ab-4730-acc5-cfd58c14deeb",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "33ca3300-ebdd-4284-ab55-1282364300af",
+			"id": "66a9da61-906b-484a-932d-40849049f1bf",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
