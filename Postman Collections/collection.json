@@ -210,7 +210,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"TestEdit\"\r\n    // \"email\" : \"testing@test.com\"\r\n}",
+							"raw": "{\r\n    \"name\" : \"TestEdit\",\r\n     \"email\" : \"testg@test.com\",\r\n     \"address\": {\r\n        \"street\": \"123 Main Street\"\r\n    },\r\n     \"phone\": {\r\n        \"street\": \"+389 77668990\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -341,13 +341,13 @@
 	],
 	"variable": [
 		{
-			"id": "dd615052-8b22-49dd-b10d-824d316f0fb9",
+			"id": "f0fa8001-56a7-4c4b-a8f6-837b186d9279",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "e36322d3-6776-4ee0-a315-62087a4f6190",
+			"id": "c23d1e86-0825-4e3a-b073-278ea366ec1f",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
