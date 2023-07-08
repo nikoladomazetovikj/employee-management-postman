@@ -44,13 +44,7 @@
 					},
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "X-XSRF-TOKEN",
-								"value": "{{X-XSRF-TOKEN}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\"\r\n}",
@@ -160,13 +154,13 @@
 	],
 	"variable": [
 		{
-			"id": "89cef083-a740-4bdc-bc2a-974fff6cc994",
+			"id": "9a17b18c-262b-4e54-9135-01017b3d21e1",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "c12e63c3-26bb-4842-a339-0d6a1c2cd417",
+			"id": "283d6de9-7144-4c47-bcd7-261f6130cef8",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
