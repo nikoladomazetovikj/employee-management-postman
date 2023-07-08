@@ -110,17 +110,12 @@
 					"name": "Logout",
 					"id": "69e8da2e-b3bf-41a4-b28e-88a4873a825e",
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disableCookies": true
 					},
 					"request": {
 						"method": "POST",
-						"header": [
-							{
-								"key": "X-XSRF-TOKEN",
-								"value": "{{X-XSRF-TOKEN}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"body": {
 							"mode": "raw",
 							"raw": "",
@@ -346,13 +341,13 @@
 	],
 	"variable": [
 		{
-			"id": "63149585-cb30-402a-ba2a-b94d6e8a0074",
+			"id": "b2510644-bf46-42ad-8c36-05a82c457375",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "e92c58bc-6e34-4c67-81a8-5bb870b5a5a4",
+			"id": "948fe555-eae5-4eea-ab6d-3218ec2cf7b5",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
