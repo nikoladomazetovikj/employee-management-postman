@@ -182,6 +182,49 @@
 						"url": "{{host}}/api/company"
 					},
 					"response": []
+				},
+				{
+					"name": "Get By Id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "ffde0013-99c4-4c9e-ab22-2ecf677b0490",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"email\" : \"testing@test.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/company"
+					},
+					"response": []
 				}
 			],
 			"id": "8be46eec-8c72-42a9-93b2-abea146ef319"
@@ -217,13 +260,13 @@
 	],
 	"variable": [
 		{
-			"id": "4a4aa1dc-168c-4f64-b0f7-dd1cba07c6de",
+			"id": "dab24fb2-84c0-4ff6-9fe3-0928c71a8d13",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "756e9ac2-4e8a-41bd-9b9d-e29dbbb978f3",
+			"id": "4fb8a877-bc46-4825-b757-3ef8b768144d",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
