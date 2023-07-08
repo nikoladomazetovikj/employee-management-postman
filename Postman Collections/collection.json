@@ -248,7 +248,7 @@
 						}
 					},
 					"request": {
-						"method": "PATCH",
+						"method": "DELETE",
 						"header": [
 							{
 								"key": "Accept",
@@ -258,7 +258,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"TestEdit\"\r\n    // \"email\" : \"testing@test.com\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -346,13 +346,13 @@
 	],
 	"variable": [
 		{
-			"id": "377eb59f-1043-44da-8e71-54c3f11a22bc",
+			"id": "fab1042f-9acc-4470-b330-ac14457322d0",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "8666121f-3172-489c-9923-d91077399b9b",
+			"id": "d489dc59-adfc-4c9c-8140-21994279434d",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
