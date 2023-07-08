@@ -125,8 +125,6 @@
 							"script": {
 								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
 								"exec": [
-									"const responseJson = pm.response.json();\r",
-									"pm.collectionVariables.set('bearer', responseJson.token)\r",
 									""
 								],
 								"type": "text/javascript"
@@ -135,11 +133,20 @@
 					],
 					"id": "7abd4558-c7fa-4d74-a4a2-491cfdaef5b4",
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
 					},
 					"request": {
 						"method": "POST",
-						"header": [],
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"email\" : \"testing@test.com\"\r\n}",
@@ -187,13 +194,13 @@
 	],
 	"variable": [
 		{
-			"id": "434421dc-7876-422c-895d-7795f4cb2455",
+			"id": "049f70f0-428e-4285-9ce2-91680e228d1b",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "5422aed5-6ebd-49ee-8fbe-fb03db378b31",
+			"id": "4c20b308-ef95-4e37-93c8-79b24d83bcc5",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
