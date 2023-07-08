@@ -15,6 +15,9 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "noauth"
+						},
 						"method": "POST",
 						"header": [
 							{
@@ -162,13 +165,13 @@
 	],
 	"variable": [
 		{
-			"id": "54ab2187-3e3b-4c29-ad92-feb72166de57",
+			"id": "02a9bf3c-55f2-42ee-a875-04378ee58327",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "73bea9b9-100b-4839-8e32-9dc4d171bac3",
+			"id": "33ca3300-ebdd-4284-ab55-1282364300af",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
