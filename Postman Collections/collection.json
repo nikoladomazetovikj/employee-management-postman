@@ -227,7 +227,7 @@
 					"response": []
 				},
 				{
-					"name": "Update Copy",
+					"name": "Delete",
 					"event": [
 						{
 							"listen": "test",
@@ -346,13 +346,13 @@
 	],
 	"variable": [
 		{
-			"id": "f2fd48d2-6d9a-4871-bc51-5a881e91df3b",
+			"id": "377eb59f-1043-44da-8e71-54c3f11a22bc",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "fc0505a1-4f78-4a3d-82c0-89a6e1c766b8",
+			"id": "8666121f-3172-489c-9923-d91077399b9b",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
