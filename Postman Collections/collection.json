@@ -47,8 +47,6 @@
 							"script": {
 								"id": "36f7102f-8252-4485-8ec5-4e0d486fd2b7",
 								"exec": [
-									"const responseJson = pm.response.json();\r",
-									"pm.collectionVariables.set('bearer', responseJson.token)\r",
 									""
 								],
 								"type": "text/javascript"
@@ -182,13 +180,13 @@
 	],
 	"variable": [
 		{
-			"id": "51c1c182-68ab-4730-acc5-cfd58c14deeb",
+			"id": "ee364e64-5193-4b5e-8c02-ee85e9a5539d",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "66a9da61-906b-484a-932d-40849049f1bf",
+			"id": "b5d11450-f2b8-4601-9d25-52496b7561aa",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
