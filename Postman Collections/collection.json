@@ -55,7 +55,8 @@
 					],
 					"id": "14710b88-229e-4889-b03a-04d4d8d657ab",
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disableCookies": true
 					},
 					"request": {
 						"auth": {
@@ -180,13 +181,13 @@
 	],
 	"variable": [
 		{
-			"id": "ee364e64-5193-4b5e-8c02-ee85e9a5539d",
+			"id": "afc20d2f-0142-444a-80d2-1cdbcfb6173f",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "b5d11450-f2b8-4601-9d25-52496b7561aa",
+			"id": "ad66ccca-b2cf-438a-8aae-7ce01bae9a41",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
