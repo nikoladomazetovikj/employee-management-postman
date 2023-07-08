@@ -130,11 +130,17 @@
 			"id": "8be46eec-8c72-42a9-93b2-abea146ef319"
 		}
 	],
+	"auth": {
+		"type": "bearer",
+		"bearer": {
+			"token": "{{bearer}}"
+		}
+	},
 	"event": [
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e9d8eb66-ec96-46a3-b0a1-ad94e608657c",
+				"id": "13791310-c47b-449c-9a2f-71588961ff66",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -144,7 +150,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f701df82-ea29-4c62-822e-aca086005783",
+				"id": "a15ea67d-5357-4b29-a33c-5dc546533408",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -154,9 +160,15 @@
 	],
 	"variable": [
 		{
-			"id": "01467ae1-7c35-4041-80f7-9b6a9f24e345",
+			"id": "89cef083-a740-4bdc-bc2a-974fff6cc994",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		},
+		{
+			"id": "c12e63c3-26bb-4842-a339-0d6a1c2cd417",
+			"key": "bearer",
+			"value": "any",
 			"type": "string"
 		}
 	]
