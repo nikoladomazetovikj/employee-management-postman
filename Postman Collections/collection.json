@@ -205,7 +205,7 @@
 						}
 					},
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [
 							{
 								"key": "Accept",
@@ -222,7 +222,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/company"
+						"url": "{{host}}/api/company/1"
 					},
 					"response": []
 				}
@@ -260,13 +260,13 @@
 	],
 	"variable": [
 		{
-			"id": "dab24fb2-84c0-4ff6-9fe3-0928c71a8d13",
+			"id": "3064d1d8-e671-4a51-b094-0cd03d18aaa8",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "4fb8a877-bc46-4825-b757-3ef8b768144d",
+			"id": "6a0554b8-8f07-443e-a152-d51058b979bb",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
