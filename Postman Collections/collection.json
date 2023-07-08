@@ -12,20 +12,15 @@
 					"name": "Register",
 					"id": "74a9ee29-c84b-427c-9152-b6a679316c7b",
 					"protocolProfileBehavior": {
-						"disableBodyPruning": true
+						"disableBodyPruning": true,
+						"disableCookies": true
 					},
 					"request": {
 						"auth": {
 							"type": "noauth"
 						},
 						"method": "POST",
-						"header": [
-							{
-								"key": "X-XSRF-TOKEN",
-								"value": "{{X-XSRF-TOKEN}}",
-								"type": "text"
-							}
-						],
+						"header": [],
 						"body": {
 							"mode": "raw",
 							"raw": "{\r\n    \"name\" : \"Nikola\",\r\n    \"surname\" : \"Admin\",\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\",\r\n    \"password_confirmation\" : \"123456789\",\r\n    \"date_of_birth\" : \"1999-06-25\"\r\n}",
@@ -181,13 +176,13 @@
 	],
 	"variable": [
 		{
-			"id": "afc20d2f-0142-444a-80d2-1cdbcfb6173f",
+			"id": "e0f3e6d2-c8e3-40ca-bbb6-493d5d1ff6f3",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "ad66ccca-b2cf-438a-8aae-7ce01bae9a41",
+			"id": "90459f38-4871-4b14-87d5-c61c75471ba9",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
