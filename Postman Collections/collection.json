@@ -227,6 +227,49 @@
 					"response": []
 				},
 				{
+					"name": "Update Copy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "6f3e0656-34e1-4a41-8884-2eb0962fe40c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"TestEdit\"\r\n    // \"email\" : \"testing@test.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/company/1"
+					},
+					"response": []
+				},
+				{
 					"name": "Get By Id",
 					"event": [
 						{
@@ -258,7 +301,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"email\" : \"testing@test.com\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -303,13 +346,13 @@
 	],
 	"variable": [
 		{
-			"id": "68c0a282-b620-437a-8ea0-26163ead0b7a",
+			"id": "f2fd48d2-6d9a-4871-bc51-5a881e91df3b",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "b1589ea6-25e5-468f-9d3d-abf86aec965e",
+			"id": "fc0505a1-4f78-4a3d-82c0-89a6e1c766b8",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
