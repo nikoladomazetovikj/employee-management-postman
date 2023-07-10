@@ -481,7 +481,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/company/1"
+						"url": "{{host}}/api/user/2"
 					},
 					"response": []
 				}
@@ -519,13 +519,13 @@
 	],
 	"variable": [
 		{
-			"id": "2ff265b3-b3e2-42cd-abf0-a6e872b2e76a",
+			"id": "6b092fc0-e32b-45ec-92b7-6f6fccd6662e",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "6124fdcf-01d6-4d22-8e01-248bf7fa9b3c",
+			"id": "a8de4401-26da-49b5-9752-36de693183e7",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
