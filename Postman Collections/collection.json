@@ -388,14 +388,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"TestEdit\",\r\n     \"email\" : \"testg@test.com\",\r\n     \"address\": {\r\n        \"street\": \"Ilindenska\"\r\n    },\r\n     \"phone\": {\r\n        \"number\": \"+389 77668990\"\r\n    }\r\n}",
+							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"surname\" : \"Surname\",\r\n    \"date_of_birth\" : \"1996-01-21\",\r\n    \"email\" : \"testg@test.com\",\r\n    \"address\": {\r\n        \"street\": \"123 Main Street\",\r\n        \"city\": \"New York\",\r\n        \"zip\": \"10001\",\r\n        \"state\": \"NY\",\r\n        \"country\": \"USA\"\r\n    },\r\n    \"phone\": {\r\n        \"number\" : \"+12345678900\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{host}}/api/company/1"
+						"url": "{{host}}/api/user/2"
 					},
 					"response": []
 				},
@@ -519,13 +519,13 @@
 	],
 	"variable": [
 		{
-			"id": "d55edcbb-cf55-402a-b415-cba27a8596ce",
+			"id": "30e0bf1f-f952-4fab-9c12-3a59d9c94b2d",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "830a1a19-d8de-4b33-824c-af53c319d33a",
+			"id": "b32439b0-5b52-4286-81b7-6553c0727135",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
