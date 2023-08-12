@@ -490,7 +490,51 @@
 		},
 		{
 			"name": "Inquires",
-			"item": [],
+			"item": [
+				{
+					"name": "Create",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "c9db9692-556f-42aa-98df-b043d1eae152",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"surname\" : \"Surname\",\r\n    \"date_of_birth\" : \"1996-01-01\",\r\n    \"email\" : \"testg@test.com\",\r\n    \"address\": {\r\n        \"street\": \"123 Main Street\",\r\n        \"city\": \"New York\",\r\n        \"zip\": \"10001\",\r\n        \"state\": \"NY\",\r\n        \"country\": \"USA\"\r\n    },\r\n    \"phone\": {\r\n        \"number\" : \"+12345678900\"\r\n    },\r\n    \"vacation_days\" : 25\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/user"
+					},
+					"response": []
+				}
+			],
 			"id": "1c080cdc-f823-4fe0-b92c-b3238ba1b243"
 		}
 	],
@@ -524,13 +568,13 @@
 	],
 	"variable": [
 		{
-			"id": "a37df5a9-321a-4d79-9cde-d15a5720311e",
+			"id": "ee3edf1e-f1e9-4b96-a04e-e5f9b961d2e7",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "4ebc7e12-8079-40d8-9ec4-0e1cf2107717",
+			"id": "468cc9b4-473f-4afb-a5ad-0dbae766b615",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
