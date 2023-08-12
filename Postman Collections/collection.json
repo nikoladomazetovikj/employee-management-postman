@@ -487,6 +487,11 @@
 				}
 			],
 			"id": "edc9d035-ae91-47db-83ba-c03b8b65ff19"
+		},
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "1c080cdc-f823-4fe0-b92c-b3238ba1b243"
 		}
 	],
 	"auth": {
@@ -519,13 +524,13 @@
 	],
 	"variable": [
 		{
-			"id": "50b95f9b-40ae-418b-b03d-abafaa8580ac",
+			"id": "1942a520-3f35-4d16-b516-4f6bc951808f",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "3def6edf-e1dd-4d3d-87e4-6b834f6ae9f0",
+			"id": "f1c10f19-87e6-4b5c-8c92-059371027b97",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
