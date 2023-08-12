@@ -489,7 +489,7 @@
 			"id": "edc9d035-ae91-47db-83ba-c03b8b65ff19"
 		},
 		{
-			"name": "New Folder",
+			"name": "Inquires",
 			"item": [],
 			"id": "1c080cdc-f823-4fe0-b92c-b3238ba1b243"
 		}
@@ -524,13 +524,13 @@
 	],
 	"variable": [
 		{
-			"id": "1942a520-3f35-4d16-b516-4f6bc951808f",
+			"id": "a37df5a9-321a-4d79-9cde-d15a5720311e",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "f1c10f19-87e6-4b5c-8c92-059371027b97",
+			"id": "4ebc7e12-8079-40d8-9ec4-0e1cf2107717",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
