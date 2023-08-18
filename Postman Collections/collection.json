@@ -616,7 +616,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/types"
+						"url": "{{host}}/api/inquire"
 					},
 					"response": []
 				},
@@ -697,13 +697,13 @@
 	],
 	"variable": [
 		{
-			"id": "54594320-c6f4-4315-8121-ee43cb8d474a",
+			"id": "609c9a25-1f2d-4c77-9455-90787dc5742b",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "9c68d3e7-440c-4e63-ad8a-e9b2ee8b4e17",
+			"id": "c3e14a95-8951-47e0-b328-761103180cbe",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
