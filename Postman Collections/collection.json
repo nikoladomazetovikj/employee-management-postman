@@ -556,7 +556,7 @@
 						}
 					},
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [
 							{
 								"key": "Accept",
@@ -566,14 +566,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"type\" : 1,\r\n    \"start\": \"2023-08-20\",\r\n    \"end\": \"2023-09-01\"\r\n}",
+							"raw": "",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{host}}/api/inquire"
+						"url": "{{host}}/api/types"
 					},
 					"response": []
 				}
@@ -611,13 +611,13 @@
 	],
 	"variable": [
 		{
-			"id": "3d182a24-b017-430d-99d3-ade14bc0f18b",
+			"id": "0a6b68f8-723f-4d39-9d49-af486d53c233",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "95e7bfa9-c0aa-46ba-95f0-09bba0e8578b",
+			"id": "0f3b689e-f975-493b-a553-f5b06df629f3",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
