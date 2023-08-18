@@ -578,6 +578,49 @@
 					"response": []
 				},
 				{
+					"name": "List Inquires",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "c4bad513-d9cc-4ec6-a156-f0c850f72636",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/types"
+					},
+					"response": []
+				},
+				{
 					"name": "List Statuses",
 					"event": [
 						{
@@ -654,13 +697,13 @@
 	],
 	"variable": [
 		{
-			"id": "131074a0-a690-4487-bbf4-d8ee99176a57",
+			"id": "54594320-c6f4-4315-8121-ee43cb8d474a",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "e69c79aa-d907-478b-bfb7-c475b499eb29",
+			"id": "9c68d3e7-440c-4e63-ad8a-e9b2ee8b4e17",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
