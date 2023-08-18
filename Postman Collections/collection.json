@@ -535,6 +535,49 @@
 					"response": []
 				},
 				{
+					"name": "Update (Only manager)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "9208afac-f384-495b-afec-0f1f5a4339cc",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\" : 1,\r\n    \"start\": \"2023-08-20\",\r\n    \"end\": \"2023-09-01\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/inquire"
+					},
+					"response": []
+				},
+				{
 					"name": "List Types",
 					"event": [
 						{
@@ -783,13 +826,13 @@
 	],
 	"variable": [
 		{
-			"id": "f97c9231-ac33-4818-9273-9d9cc95eb5f7",
+			"id": "973ff39b-39a8-4cbb-94e0-85e230436c34",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "ff8609cb-94d3-4f1c-9eb1-2b7cbbc051a1",
+			"id": "a3f0cfc4-f916-45c6-b7d3-929522fd03e6",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
