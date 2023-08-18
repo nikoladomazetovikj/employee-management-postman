@@ -566,7 +566,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"type\" : 1,\r\n    \"start\": \"2023-08-20\",\r\n    \"end\": \"2023-09-01\"\r\n}",
+							"raw": "{\r\n    \"status_id\" : 3\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -826,13 +826,13 @@
 	],
 	"variable": [
 		{
-			"id": "973ff39b-39a8-4cbb-94e0-85e230436c34",
+			"id": "5201ce78-de02-4697-95ae-82fb6ce3c2ef",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "a3f0cfc4-f916-45c6-b7d3-929522fd03e6",
+			"id": "e957504c-c106-4643-b2e8-57d3e5f67741",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
