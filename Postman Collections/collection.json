@@ -702,7 +702,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/inquire/01H85E39CJPYZP33SWZCFYHGKS"
+						"url": "{{host}}/api/myInquires"
 					},
 					"response": []
 				},
@@ -783,13 +783,13 @@
 	],
 	"variable": [
 		{
-			"id": "45294279-9132-4ab4-84e2-8bea7541da2a",
+			"id": "b4c6ae07-39e5-46ae-b1f8-17f8a67e5210",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "87792276-eab5-4a61-8444-aeb587bd59b0",
+			"id": "38dd3c02-3d54-4674-8a18-53cdc7386c14",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
