@@ -556,7 +556,7 @@
 						}
 					},
 					"request": {
-						"method": "POST",
+						"method": "PATCH",
 						"header": [
 							{
 								"key": "Accept",
@@ -573,7 +573,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/inquire/01H85E4J5B5EQMAGW85MYPDJ73"
+						"url": "{{host}}/api/inquire/01H85E39CJPYZP33SWZCFYHGKS"
 					},
 					"response": []
 				},
@@ -826,13 +826,13 @@
 	],
 	"variable": [
 		{
-			"id": "ac109fc5-c848-4601-8bd4-81d5f07663f2",
+			"id": "c55bab14-b61a-4546-8a5a-9ce6d08d7e05",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "77fd5a23-3584-4b73-90bc-4517c63b7d6d",
+			"id": "391ad16a-1478-4376-b062-0cccf77e76c4",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
