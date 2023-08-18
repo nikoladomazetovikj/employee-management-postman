@@ -621,6 +621,49 @@
 					"response": []
 				},
 				{
+					"name": "Get Inquires By ID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "0cd16628-bf63-4591-91a1-58b75abe5e4b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/inquire"
+					},
+					"response": []
+				},
+				{
 					"name": "List Statuses",
 					"event": [
 						{
@@ -697,13 +740,13 @@
 	],
 	"variable": [
 		{
-			"id": "7e571fe2-3f8a-4a07-8970-15c733c39bd3",
+			"id": "07708b36-9b82-41ad-894e-03d7cdbde281",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "d66ad57a-8295-4de4-af74-715233f1f2f7",
+			"id": "eb9920a2-2392-4da4-a5f1-5e183222f283",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
