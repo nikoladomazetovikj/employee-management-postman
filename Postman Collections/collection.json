@@ -616,7 +616,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/types"
+						"url": "{{host}}/api/statuses"
 					},
 					"response": []
 				}
@@ -654,13 +654,13 @@
 	],
 	"variable": [
 		{
-			"id": "437b5dc3-12b6-456e-826e-93086c0d6b63",
+			"id": "6e2d1d8b-681d-48d3-9f06-5396c8158f81",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "7527bc85-4deb-4b10-9d47-688e189e4567",
+			"id": "bf58b0e2-8e51-4bbf-b571-1131db3c8282",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
