@@ -533,6 +533,49 @@
 						"url": "{{host}}/api/inquire"
 					},
 					"response": []
+				},
+				{
+					"name": "List Types",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "c409f1a7-3c94-4d8f-93f0-1c9418aedc06",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\" : 1,\r\n    \"start\": \"2023-08-20\",\r\n    \"end\": \"2023-09-01\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/inquire"
+					},
+					"response": []
 				}
 			],
 			"id": "1c080cdc-f823-4fe0-b92c-b3238ba1b243"
@@ -568,13 +611,13 @@
 	],
 	"variable": [
 		{
-			"id": "f8c28a86-57c8-4c8a-86ab-dbbdf2747548",
+			"id": "3d182a24-b017-430d-99d3-ade14bc0f18b",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "f71ce304-a84a-40c0-a8e8-0c8da0a1ab44",
+			"id": "95e7bfa9-c0aa-46ba-95f0-09bba0e8578b",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
