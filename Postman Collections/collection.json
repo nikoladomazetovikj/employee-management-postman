@@ -220,6 +220,49 @@
 						"url": "{{host}}/email/verification-notification"
 					},
 					"response": []
+				},
+				{
+					"name": "Verify email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "ad37aaae-fc80-4de3-92c6-2731a9b8435e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/email/verification-notification"
+					},
+					"response": []
 				}
 			],
 			"id": "3dbd3160-587d-4053-b1b2-88d032c14a1b"
@@ -918,13 +961,13 @@
 	],
 	"variable": [
 		{
-			"id": "b999eda6-843c-4b38-ab25-e2a952ba1f5f",
+			"id": "25eb9c73-d613-43a8-9b22-4d5f3e7cc4bf",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "a7e4ab20-0de2-46db-8282-dc2b4c214374",
+			"id": "52439e23-525c-416a-852e-47711b4e8a0b",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
