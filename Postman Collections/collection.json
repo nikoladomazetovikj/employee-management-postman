@@ -243,7 +243,7 @@
 						}
 					},
 					"request": {
-						"method": "POST",
+						"method": "GET",
 						"header": [
 							{
 								"key": "Accept",
@@ -260,7 +260,27 @@
 								}
 							}
 						},
-						"url": "{{host}}/email/verification-notification"
+						"url": {
+							"raw": "{{host}}/verify-email/1/a791f3d7ad0a0cee8d76570ccdec379459b6102e?expires=1692561840&signature=f8e170ab1a596c62f875649e06918b7b433a5eadbf70b2238ec3b25599523b85",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"verify-email",
+								"1",
+								"a791f3d7ad0a0cee8d76570ccdec379459b6102e"
+							],
+							"query": [
+								{
+									"key": "expires",
+									"value": "1692561840"
+								},
+								{
+									"key": "signature",
+									"value": "f8e170ab1a596c62f875649e06918b7b433a5eadbf70b2238ec3b25599523b85"
+								}
+							]
+						}
 					},
 					"response": []
 				}
@@ -961,13 +981,13 @@
 	],
 	"variable": [
 		{
-			"id": "25eb9c73-d613-43a8-9b22-4d5f3e7cc4bf",
+			"id": "106b6bc4-1dbb-4f3b-a463-9e8945cc1e89",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "52439e23-525c-416a-852e-47711b4e8a0b",
+			"id": "40076cee-1c67-4370-b3a6-a281975ee219",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
