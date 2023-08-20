@@ -58,6 +58,55 @@
 					"response": []
 				},
 				{
+					"name": "Forgot Password",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c15c402a-c029-49ad-b77a-77efcaf8be5d",
+								"exec": [
+									"const responseJson = pm.response.json();\r",
+									"pm.collectionVariables.set('bearer', responseJson.token)\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "562eb49a-ae0e-45fa-b763-a9cb40198af5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disableCookies": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Nikola\",\r\n    \"surname\" : \"Admin\",\r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"password\" : \"123456789\",\r\n    \"password_confirmation\" : \"123456789\",\r\n    \"date_of_birth\" : \"1999-06-25\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/register"
+					},
+					"response": []
+				},
+				{
 					"name": "Login",
 					"event": [
 						{
@@ -869,13 +918,13 @@
 	],
 	"variable": [
 		{
-			"id": "5d8a45bc-267e-4433-a014-a27457d689a5",
+			"id": "789553b9-43b8-40ae-bbc2-0ff5cbee396a",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "6c8326a9-2836-4f58-8439-06b74fd56030",
+			"id": "7aaaca1c-e133-4a60-a850-9a4eae3dec73",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
