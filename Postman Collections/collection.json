@@ -144,7 +144,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \r\n    \"email\" : \"nikolaadmin@test.com\"\r\n}",
+							"raw": "{\r\n    \r\n    \"email\" : \"nikolaadmin@test.com\",\r\n    \"token\": \"b9d08be18831541e6660dd528b35081dd1b12a279f6f21e96e0fe641eb435f95\",\r\n    \"password\": \"12345678\",\r\n    \"password_confirmation\": \"12345678\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1030,13 +1030,13 @@
 	],
 	"variable": [
 		{
-			"id": "71c53d51-3b0f-4ef1-95d3-c6665d6b92c0",
+			"id": "ce1421f0-f9ab-4803-a45a-339fd2a59c42",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "68b076b5-a80c-43a5-bf0b-7b43b47a3748",
+			"id": "0baddb40-7b92-446b-81b1-c5fb7b338c9b",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
