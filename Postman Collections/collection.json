@@ -151,7 +151,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/forgot-password"
+						"url": "{{host}}/reset-password"
 					},
 					"response": []
 				},
@@ -1030,13 +1030,13 @@
 	],
 	"variable": [
 		{
-			"id": "677a34bc-c21f-4b40-b937-678ca795dc1a",
+			"id": "eaf220eb-5d70-4691-a912-c7a7017a7ed3",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "acb37049-7039-4afe-ac57-4460e9e87449",
+			"id": "c7a747d0-3bb4-4e0c-8338-cf6c19e5cb11",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
