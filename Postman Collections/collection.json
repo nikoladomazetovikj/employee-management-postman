@@ -226,112 +226,6 @@
 						"url": "{{host}}/logout"
 					},
 					"response": []
-				},
-				{
-					"name": "Send Verification Notification",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
-								"exec": [
-									""
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"id": "402bf179-9a7a-48e2-b8b4-676b1893412b",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true,
-						"disabledSystemHeaders": {
-							"accept": true
-						}
-					},
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "{{host}}/email/verification-notification"
-					},
-					"response": []
-				},
-				{
-					"name": "Verify email",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
-								"exec": [
-									""
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
-					"id": "ad37aaae-fc80-4de3-92c6-2731a9b8435e",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true,
-						"disabledSystemHeaders": {
-							"accept": true
-						}
-					},
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "{{host}}/verify-email/1/a791f3d7ad0a0cee8d76570ccdec379459b6102e?expires=1692561840&signature=f8e170ab1a596c62f875649e06918b7b433a5eadbf70b2238ec3b25599523b85",
-							"host": [
-								"{{host}}"
-							],
-							"path": [
-								"verify-email",
-								"1",
-								"a791f3d7ad0a0cee8d76570ccdec379459b6102e"
-							],
-							"query": [
-								{
-									"key": "expires",
-									"value": "1692561840"
-								},
-								{
-									"key": "signature",
-									"value": "f8e170ab1a596c62f875649e06918b7b433a5eadbf70b2238ec3b25599523b85"
-								}
-							]
-						}
-					},
-					"response": []
 				}
 			],
 			"id": "3dbd3160-587d-4053-b1b2-88d032c14a1b"
@@ -1030,13 +924,13 @@
 	],
 	"variable": [
 		{
-			"id": "cf060376-6084-447c-9229-4ef19a88690b",
+			"id": "7ece65e8-e1d7-4d21-a19d-c19706674e4d",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "ee9cc9c1-4512-4401-8964-8400270f1b4d",
+			"id": "72e8f2f6-e0bc-407c-ad89-73580fc6a8cf",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
