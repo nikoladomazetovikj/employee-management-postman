@@ -246,7 +246,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/logout"
+						"url": "{{host}}/email/verification-notification"
 					},
 					"response": []
 				}
@@ -990,13 +990,13 @@
 	],
 	"variable": [
 		{
-			"id": "e760b757-2f0f-4a3c-a056-c00acc62f8c8",
+			"id": "ea7353f6-b4b7-4b4e-9769-9fbf887ef04a",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "ba9fff52-7932-4b73-ba0e-200bff212d48",
+			"id": "0f52ce02-5b34-4c1e-a5c2-869fd3539a27",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
