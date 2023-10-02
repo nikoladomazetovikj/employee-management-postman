@@ -622,7 +622,7 @@
 								}
 							}
 						},
-						"url": "{{host}}/api/user/1"
+						"url": "{{host}}/api/user"
 					},
 					"response": []
 				}
@@ -967,13 +967,13 @@
 	],
 	"variable": [
 		{
-			"id": "4cd7d1a5-41b8-4451-842c-70738c352de0",
+			"id": "3d33bea0-4171-4284-8a15-397767df4a36",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "d76c1b1e-b482-45e0-b0c3-83cfc3155064",
+			"id": "0c3d44de-e2ec-44df-9c89-d8713aec8c0c",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
