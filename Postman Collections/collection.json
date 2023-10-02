@@ -226,6 +226,29 @@
 						"url": "{{host}}/logout"
 					},
 					"response": []
+				},
+				{
+					"name": "Verify Email Notification",
+					"id": "9a1f0ecc-366c-4db3-986e-3d55dee59c38",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disableCookies": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/logout"
+					},
+					"response": []
 				}
 			],
 			"id": "3dbd3160-587d-4053-b1b2-88d032c14a1b"
@@ -967,13 +990,13 @@
 	],
 	"variable": [
 		{
-			"id": "3d33bea0-4171-4284-8a15-397767df4a36",
+			"id": "e760b757-2f0f-4a3c-a056-c00acc62f8c8",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "0c3d44de-e2ec-44df-9c89-d8713aec8c0c",
+			"id": "ba9fff52-7932-4b73-ba0e-200bff212d48",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
