@@ -648,6 +648,49 @@
 						"url": "{{host}}/api/user"
 					},
 					"response": []
+				},
+				{
+					"name": "Deleted",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"id": "51066eb4-5279-4fde-bb94-3d75ab16ee96",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/api/archivedUsers"
+					},
+					"response": []
 				}
 			],
 			"id": "edc9d035-ae91-47db-83ba-c03b8b65ff19"
