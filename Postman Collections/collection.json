@@ -466,7 +466,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"surname\" : \"Surname\",\r\n    \"date_of_birth\" : \"1996-01-01\",\r\n    \"email\" : \"testg@test.com\",\r\n    \"address\": {\r\n        \"street\": \"123 Main Street\",\r\n        \"city\": \"New York\",\r\n        \"zip\": \"10001\",\r\n        \"state\": \"NY\",\r\n        \"country\": \"USA\"\r\n    },\r\n    \"phone\": {\r\n        \"number\" : \"+12345678900\"\r\n    },\r\n    \"vacation_days\" : 25\r\n}",
+							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"surname\" : \"Surname\",\r\n    \"date_of_birth\" : \"1996-01-01\",\r\n    \"email\" : \"11112@test.com\",\r\n    \"address\": {\r\n        \"street\": \"123 Main Street\",\r\n        \"city\": \"New York\",\r\n        \"zip\": \"10001\",\r\n        \"state\": \"NY\",\r\n        \"country\": \"USA\"\r\n    },\r\n    \"phone\": {\r\n        \"number\" : \"+12345678900\"\r\n    },\r\n    \"vacation_days\" : 25\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1076,13 +1076,13 @@
 	],
 	"variable": [
 		{
-			"id": "31f26b6f-9172-44f9-84ed-ffb26b171a6d",
+			"id": "9d1bc11c-6692-4810-8a0d-16ccbec3766a",
 			"key": "host",
 			"value": "http://127.0.0.1:8000",
 			"type": "string"
 		},
 		{
-			"id": "f1c98b4d-1a7d-48a6-92bd-e962a641ebb5",
+			"id": "e08623db-2569-43ed-ab23-550921e1d2c6",
 			"key": "bearer",
 			"value": "any",
 			"type": "string"
