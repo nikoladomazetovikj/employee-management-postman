@@ -258,7 +258,10 @@
 						"disableCookies": true
 					},
 					"request": {
-						"method": "POST",
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
 						"header": [],
 						"body": {
 							"mode": "raw",
@@ -269,7 +272,27 @@
 								}
 							}
 						},
-						"url": "{{host}}/email/verification-notification"
+						"url": {
+							"raw": "{{host}}/verify-email/23/a39728a8a94ab2355760fb85d03abb5526de1867?expires=1701251406&signature=1e4c185e122ead075d781571dc11a6eeaefa50d07483a4974116bebdb469e9df",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"verify-email",
+								"23",
+								"a39728a8a94ab2355760fb85d03abb5526de1867"
+							],
+							"query": [
+								{
+									"key": "expires",
+									"value": "1701251406"
+								},
+								{
+									"key": "signature",
+									"value": "1e4c185e122ead075d781571dc11a6eeaefa50d07483a4974116bebdb469e9df"
+								}
+							]
+						}
 					},
 					"response": []
 				}
