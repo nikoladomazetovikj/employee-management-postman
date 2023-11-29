@@ -512,7 +512,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"surname\" : \"Surname\",\r\n    \"date_of_birth\" : \"1996-01-01\",\r\n    \"email\" : \"11112@test.com\",\r\n    \"address\": {\r\n        \"street\": \"123 Main Street\",\r\n        \"city\": \"New York\",\r\n        \"zip\": \"10001\",\r\n        \"state\": \"NY\",\r\n        \"country\": \"USA\"\r\n    },\r\n    \"phone\": {\r\n        \"number\" : \"+12345678900\"\r\n    },\r\n    \"vacation_days\" : 25\r\n}",
+							"raw": "{\r\n    \"name\" : \"Test\",\r\n    \"surname\" : \"Surname\",\r\n    \"date_of_birth\" : \"1996-01-01\",\r\n    \"email\" : \"1111ssss2@test.com\",\r\n    \"role_id\" : 1,\r\n    \"address\": {\r\n        \"street\": \"123 Main Street\",\r\n        \"city\": \"New York\",\r\n        \"zip\": \"10001\",\r\n        \"state\": \"NY\",\r\n        \"country\": \"USA\"\r\n    },\r\n    \"phone\": {\r\n        \"number\" : \"+12345678900\"\r\n    },\r\n    \"vacation_days\" : 25\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1090,6 +1090,49 @@
 				}
 			],
 			"id": "1c080cdc-f823-4fe0-b92c-b3238ba1b243"
+		},
+		{
+			"name": "List Roles",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "278d8c0f-af94-48bf-bf25-5e253abc68a6",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "94cf0a55-72bd-402e-9302-b342ba1bb9f3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{host}}/api/roles"
+			},
+			"response": []
 		}
 	],
 	"auth": {
